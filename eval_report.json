@@ -1,0 +1,58 @@
+{
+  "baseline_overall": {
+    "label": "baseline_overall",
+    "n_examples": 20,
+    "parse_failures": 1,
+    "skills_precision": 0.9736842105263158,
+    "skills_recall": 0.9052631578947368,
+    "skills_f1": 0.928153717627402,
+    "certifications_precision": 0.9473684210526315,
+    "certifications_recall": 0.631578947368421,
+    "certifications_f1": 0.631578947368421,
+    "education_accuracy": 1.0,
+    "career_gap_accuracy": 0.5789473684210527,
+    "hallucination_rate": 0.0
+  },
+  "baseline_held_out_generalization": {
+    "label": "baseline_held_out",
+    "n_examples": 8,
+    "parse_failures": 0,
+    "skills_precision": 1.0,
+    "skills_recall": 0.9229166666666667,
+    "skills_f1": 0.9568903318903319,
+    "certifications_precision": 1.0,
+    "certifications_recall": 0.75,
+    "certifications_f1": 0.75,
+    "education_accuracy": 1.0,
+    "career_gap_accuracy": 0.5,
+    "hallucination_rate": 0.0
+  },
+  "finetuned_overall": {
+    "label": "finetuned_overall",
+    "n_examples": 20,
+    "parse_failures": 0,
+    "skills_precision": 1.0,
+    "skills_recall": 0.9116666666666667,
+    "skills_f1": 0.9400974025974026,
+    "certifications_precision": 1.0,
+    "certifications_recall": 0.7,
+    "certifications_f1": 0.7,
+    "education_accuracy": 1.0,
+    "career_gap_accuracy": 0.95,
+    "hallucination_rate": 0.0
+  },
+  "finetuned_held_out_generalization": {
+    "label": "finetuned_held_out",
+    "n_examples": 8,
+    "parse_failures": 0,
+    "skills_precision": 0.96875,
+    "skills_recall": 0.9291666666666667,
+    "skills_f1": 0.9469696969696969,
+    "certifications_precision": 1.0,
+    "certifications_recall": 0.75,
+    "certifications_f1": 0.75,
+    "education_accuracy": 1.0,
+    "career_gap_accuracy": 1.0,
+    "hallucination_rate": 0.0
+  }
+}
